@@ -37,7 +37,3 @@ Array.from(document.querySelectorAll("#scene-tabbar .list-item")).forEach((el, i
             el.style.backgroundColor = unselected
     })
 })
-
-let xhttp = new XMLHttpRequest();
-xhttp.open("POST", "https://secret-wildwood-85596.herokuapp.com/", true);
-xhttp.send();
